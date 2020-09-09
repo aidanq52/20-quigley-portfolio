@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <PortfolioNavbar/>
-        <Route exact path="/" component={About}/>
+        <Route exact path="/20-quigley-portfolio" component={About}/>
         <Route exact path="/portfolio" component={Portfolio}/>
         <Footer/>
       </div>
