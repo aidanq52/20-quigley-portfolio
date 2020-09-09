@@ -4,7 +4,7 @@ import React from "react";
 function About(){
     return(
         <div class="main">
-                <img width="200" height="200" src="/graduation.png" alt="graduation"></img>
+                <img width="200" height="200" src="../../public/graduation.png" alt="graduation"></img>
                 <h1>Who am I?</h1>
                 <br/>
                 <p class="bio">My name is <b>Aidan Quigley</b>. I am a molecular biologist intent on expanding my skillset. At the start of February 2020 I sustained a traumatic knee injury which forced me to stop my normal extracurriculars. Then COVID-19 hit. The research institute I work observed the anthropause, much of the work going on, including my project, ground to a halt. I began to consider how I could turn the anthropause to my advantage. How could I use this time to further my knowledge, build a skillset, or advance my career? Computer Science! Through exposure to computer science I could do all three.</p>
