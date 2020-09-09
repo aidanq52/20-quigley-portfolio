@@ -13,12 +13,12 @@ function Project(){
 
 
     const apps = [
-        ["Ultimate Fitness Tracker", "https://the-ultimate-fitness-tracker.herokuapp.com/?id=5f334a2059852a0017420622", "fitness.png", "Get Fit"], 
-        ["Note Taker", "https://sleepy-dawn-56235.herokuapp.com/", "noteTaker.png", "Take Notes"],
-        ["Budget Tracker", "https://cryptic-badlands-37708.herokuapp.com/", "budget.png", "Figure Finances"],
-        ["ChefPro: Recipe Book", "https://uw-project-2.herokuapp.com/", "chefPro.png", "Get Cooking"],
-        ["Gaea: Hiking Suggestiong", "https://saharanath.github.io/Project1/", "gaea.png", "Let's Hike"],
-        ["Employee Directory", "https://pure-plateau-15598.herokuapp.com/", "directory.png", "Employee Directory"]
+        ["Ultimate Fitness Tracker", "https://the-ultimate-fitness-tracker.herokuapp.com/?id=5f334a2059852a0017420622", "fitness.png", "Get Fit", "https://github.com/aidanq52/17-Fitness-Tracker"], 
+        ["Note Taker", "https://sleepy-dawn-56235.herokuapp.com/", "noteTaker.png", "Take Notes", "https://github.com/aidanq52/11-Note_taker"],
+        ["Budget Tracker", "https://cryptic-badlands-37708.herokuapp.com/", "budget.png", "Figure Finances", "https://github.com/aidanq52/18-Budget-Tracker"],
+        ["ChefPro: Recipe Book", "https://uw-project-2.herokuapp.com/", "chefPro.png", "Get Cooking", "https://github.com/billyhao12/ChefPro"],
+        ["Gaea: Hiking Suggestiong", "https://saharanath.github.io/Project1/", "gaea.png", "Let's Hike", "https://github.com/saharanath/Project1"],
+        ["Employee Directory", "https://pure-plateau-15598.herokuapp.com/", "directory.png", "Employee Directory", "https://github.com/aidanq52/19-Employee-Directory"]
     ]
 
     return(
@@ -35,6 +35,8 @@ function Project(){
                                 the card's content.
                                 </Card.Text>
                                 <Button variant="primary" href={value[1]}>{value[3]}</Button>
+                                <br/>
+                                <Button variant="success" href={value[4]} style={{marginTop: "1em"}}>To the Repo!</Button>
                             </Card.Body>
                         </Card>
                     // </div>

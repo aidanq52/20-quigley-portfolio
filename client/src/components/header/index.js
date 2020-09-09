@@ -4,12 +4,12 @@ import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstr
 function PortfolioNavbar(){
     return(
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Quigley Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/">Quigley Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Portfolio</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <NavDropdown title="Applications" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://the-ultimate-fitness-tracker.herokuapp.com/?id=5f334a2059852a0017420622">Fitness Tracker</NavDropdown.Item>
                 <NavDropdown.Item href="https://sleepy-dawn-56235.herokuapp.com/">Note Taker</NavDropdown.Item>

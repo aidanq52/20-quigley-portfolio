@@ -46,9 +46,6 @@
   background-color: #808F85;
 }
 
-NavBar{
-  background-color: #808F85;
-}
 
 img{
   float: left;
@@ -63,3 +60,8 @@ html{
   background-color: #DCE0D9;
 }
 
+.main{
+  border-radius: 1em;
+  align-items: center;
+  padding: 2em;
+}
